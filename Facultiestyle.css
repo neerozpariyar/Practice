@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Ochre Script';
+    src: url(Fonts/Ochre\ Script.ttf);
+}
+@font-face {
+    font-family: 'Allura-Regular';
+    src: url(Fonts/Allura-Regular.ttf);
+}  
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(Images/Teambg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper{
+  margin-top: 50px;
+}
+
+.wrapper h1{
+  font-family: 'Ochre Script', cursive;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.team{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.team .team_member{
+  background: #fff;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #8e8b8b;  
+  position: relative;
+}
+
+.team .team_member h3{
+  color: #81c644;
+  font-size: 26px;
+  margin-top: 50px;
+  font-family: 'Allura-Regular';
+}
+
+.team .team_member p.role{
+  color:black;
+  margin: 12px 0;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: 'Allura-Regular';
+  
+}
+ p{
+    font-family: 'Allura-Regular';
+    font-size: 30px;
+}
+.team .team_member .team_img{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.team .team_member .team_img img{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+button{
+    font-family: Allura-Regular;
+	height:50px;
+	width: 150px;
+	font-size: 24px;
+	font-weight: 600;
+	color:black;
+	background-color:#33ccff;
+	outline: none;
+	cursor: pointer;
+	border: none;
+	border-radius: 25px;
+	transition: .6s;
+    position: fixed;
+    right: 5%;
+   bottom: 0%;
+}
+button a{
+    text-decoration: none;
+}

@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Ochre Script';
+    src: url(Fonts/Ochre\ Script.ttf);
+}
+@font-face {
+    font-family: 'Allura-Regular';
+    src: url(Fonts/Allura-Regular.ttf);
+}  
+
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Images/About.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+.about{
+    width: 100%;
+    padding: 78px;
+    
+}
+
+.about text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.about-text h1{
+    font-family: 'Ochre Script';
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.about-text h5{
+    color: #fcfc;
+    font-family: 'Allura-Regular';
+    font-size: 45px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+.por{
+    font-family: 'Allura-Regular';
+    color: white;
+    font-size: 40px;
+}
+span{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 45px;
+    margin-bottom: 45px;
+}
+.buttons button{
+	font-family: Allura-Regular;
+	height:50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 600;
+	color:black;
+	background-color:#33ccff;
+	outline: none;
+	cursor: pointer;
+	border: none;
+	border-radius: 25px;
+	transition: .6s;
+}
+.buttons button a{
+	text-decoration: none;
+}
+.buttons button:hover{
+	background: white;
+	color: black;
+}
+
